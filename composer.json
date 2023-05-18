@@ -1,0 +1,20 @@
+{
+    "name": "caina/academiacontrol",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Controllers\\": "src/controllers/",
+            "App\\Models\\": "src/models/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cainan Rhoden",
+            "email": "cainanrhoden@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^5.2",
+        "pecee/simple-router": "5.3.0.5"
+    }
+}
